@@ -1,1 +1,44 @@
+body {
+  line-height: 24px;
+  background:#f6f7f9;
+}
 
+h1,
+h2,
+h3,
+p,
+a,
+button,
+input,
+table {
+  line-height: 24px;
+}
+
+.recipe-card {
+  border: 1px solid rgba(0,0,0,0.8);
+  overflow: hidden;
+  background: #ffffff;
+  padding: 0px;
+  cursor: pointer;
+  transition: transform 120ms ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-2px);
+}
+
+.recipe-card:focus {
+  outline: 3px solid rgba(12, 110,253, 0.35);
+  outline-offset: 2px;
+}
+
+.recipe-img {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.modal-img {
+  object-fit: cover;
+  border-radius: 8px;
+}
